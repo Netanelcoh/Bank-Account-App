@@ -1,4 +1,4 @@
-# Bank Account Management Application
+# Bank Management System Application
 A project which is written in java. user can create bank account and executes different actions such as: deposit, withdraw and check balance in his bank account.
 
 ## Getting started
