@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="390.0" prefWidth="180.0" style="-fx-background-color: #059887;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="31.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Bank Management System" wrappingWidth="156.13671875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="472.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="130.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <TextField fx:id="jFullName" layoutX="167.0" layoutY="88.0" promptText="User Name" />
+            <PasswordField fx:id="jPassword" layoutX="167.0" layoutY="161.0" promptText="Password" />
+            <Label layoutX="21.0" layoutY="88.0" text="Full name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="161.0" text="Password">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="55.0" layoutY="271.0" mnemonicParsing="false" onAction="#SignupAction" prefHeight="37.0" prefWidth="275.0" text="Sign Up">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Hyperlink layoutX="242.0" layoutY="327.0" onAction="#MoveToLoginform" prefHeight="26.0" prefWidth="63.0" text="Sign in">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="21.0" layoutY="126.0" prefHeight="25.0" prefWidth="33.0" text="ID">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="jId" layoutX="167.0" layoutY="126.0" promptText="ID" />
+            <Label layoutX="121.0" layoutY="331.0" prefHeight="21.0" prefWidth="121.0" text="Have an account?">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="200.0" prefHeight="25.0" prefWidth="134.0" text="Confirm password">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="jConfirmPass" layoutX="168.0" layoutY="200.0" />
+            <Text fx:id="jMsgError" fill="#eb0404" layoutX="168.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Some Fields Are Empty" visible="false" wrappingWidth="147.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
