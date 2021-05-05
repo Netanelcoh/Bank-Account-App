@@ -9,3 +9,6 @@ This project has been done in Ecilipse IDE. It uses javafx and scene builder for
  * **JavaFx** - install javafx.
 * **mysql** - mysql connector/j is required.
 * **Eclipse** - If you want to run the project in Eclipse, import the project. Or if you want to run it without Eclipse use Login.class file.
+
+https://user-images.githubusercontent.com/71022205/117210112-eed2f300-adff-11eb-9352-b0cc76c38c71.mp4
+
